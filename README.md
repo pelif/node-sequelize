@@ -7,7 +7,7 @@ git clone https://github.com/pelif/node-sequelize
 
 Após isto, na raiz do projeto basta digitar **npm install**, o npm vai instalar todas as libs presentes no arquivo package.json. 
 
-Para poder rodá-lo no servidor web do node, basta digitar **npm start** na raíz do projeto. Pois o mesmo está com o lib babel instalada. Esta lib transpila o código para ES6 e ES5. Mas primeiro é preciso ter configurado a conexão com o mysql, conforme próximo item abaixo.
+Para poder rodá-lo no servidor web do node, basta digitar **npm start** na raíz do projeto. Pois o mesmo está com o lib babel instalada. Esta lib transpila o código para ES6 e ES5. Mas primeiro é preciso ter configurado a conexão com o mysql, conforme próximo item abaixo. Também foi instalado o nodemon para atualizar a aplicação em cada alteração de arquivo. 
 
 A sintaxe do projeto está utilizando o ES6. 
 
