@@ -19,5 +19,6 @@ block content
                     td  
                         a(href="/events/" + event.id, class="btn btn-info") More
                         a(href="/events/edit/" + event.id, class="btn btn-info") Edit
-                        form(style="display:inline-block", action="/events/" + event.id + "/?_method=DELETE", method="POST")
+                        form(method="POST", action="/events/" + event.id, enctype="multipart/form-data", style="display:inline-block")
+                            input(type="hidden", name="_method", value="DELETE")
                             button.btn.btn-danger(type="submit") Delete

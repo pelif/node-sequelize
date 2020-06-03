@@ -9,4 +9,7 @@ export default (req, res) => {
             }
         })
         .then(() => res.redirect('/events'))
+        .catch((err) => {
+            res.send(err)
+        }) 
 }
