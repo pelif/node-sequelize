@@ -1,0 +1,7 @@
+mixin form(event)
+    div.form-group
+        input(type="text", class="form-control", name="name",  placeholder="Enter event name: ", value=event.name)
+    div.form-group
+        textarea.form-control(name="description", placeholder="Enter event description: ")=event.description    
+    div.form-group    
+        button(type="submit", class="btn btn-success") Save
